@@ -2,7 +2,7 @@
 
 Projeto de desenvolvimento de um formulário de convite para a sua festa com temas variados. Este projeto faz parte do curso de desenvolvimento frontend FullStack da Rocketseat 🚀
 
-![Screenshot do Formulário](/assets/index.png) 
+![Screenshot do Formulário](/assets/images/index.png) 
 
 
 ##  Siga-me no Linkedin:
