@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+:root {
+  --color-brand-light: #59b2ff;
+  --color-brand-mid: #3487cf;
+  --color-brand-dark: #1d6fb6;
+
+  --color-purple: #b259ff;
+  --color-fuschia: #ff59f9;
+  --color-pink: #ff598b;
+  --color-danger: #ff5959;
+  --color-orange: #ff8b59;
+  --color-yellow: #ffcd59;
+  --color-lime: #e1ff59;
+  --color-green: #59ff91;
+  --color-cyan: #59fff9;
+  --color-navy: #6a59ff;
+  
+  --color-input-base: #1c1f21;
+  --color-input-stroke: #363b40;
+  --color-input-placeholder: #869198;
+
+  --color-shape-background: #131516;
+  --color-shape-body: #212427;
+  --color-shape-button: #2d3136;
+  --color-shape-hover: #383d42;
+
+  --color-text-body: #c8cdd0;
+  --color-text-heading: #f9f9f9;
+
+  --font-family-Leckerli: "Leckerli One", cursive;
+  --text-sm-Leckerli: 400 2.5rem/1 var(--font-family-Leckerli);
+
+  --font-family-Baloo: "Baloo 2", sans-serif;
+  --heading-md-Baloo: 700 1.75rem/1 var(--font-family-Baloo);
+  --heading-sm-Baloo: 700 1.12rem/1 var(--font-family-Baloo);
+
+  --font-family-OpenSans: "Open Sans", sans-serif;
+  --body-md-OpenSans: 600 1rem/1 var(--font-family-OpenSans);
+  --body-sm-OpenSans: 400 0.87rem/1.5 var(--font-family-OpenSans);
+  --body-xs-OpenSans: 600 0.75rem/1 var(--font-family-OpenSans);
+}
+
+body {
+  overflow: hidden;
+  font: 400 0.875rem/normal var(--font-family-OpenSans);
+  color: var(--color-text-body);
+  background-color: var(--color-shape-background);
+}
